@@ -1,0 +1,25 @@
+#bucket{
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(auto);
+    gap: 25px;
+    /* border: 1px solid black; */
+}
+
+#bucket>div{
+    border: 1px solid black;
+    text-align: center;
+}
+img{
+    width: 85%;
+    height: 140px;
+}
+#remove_coffee{
+    margin-bottom: 10px;
+}
+
+#total_amount{
+    padding-left: 30px;
+}

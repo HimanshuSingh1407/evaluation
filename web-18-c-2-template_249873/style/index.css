@@ -1,0 +1,39 @@
+#navbar{
+    /* border: 1px solid black; */
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    background-color: antiquewhite;
+}
+a{
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+
+#menu{
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(auto);
+    gap: 25px;
+    /* border: 1px solid black; */
+}
+
+#menu>div{
+    border: 1px solid black;
+    text-align: center;
+}
+img{
+    width: 85%;
+    height: 140px;
+}
+#add_to_bucket{
+    margin-bottom: 10px;
+}
+#coffee_count{
+    /* border: 1px solid green; */
+    padding-top: 25px;
+    padding-right: 10px;
+}
